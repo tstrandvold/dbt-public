@@ -3,8 +3,8 @@
 {
 	"name": "dbt",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	//"image": "python:3.11-slim-bookworm",
-	"image": "ghcr.io/dbt-labs/dbt-snowflake:1.7.1",
+	"image": "python:3.11-slim-bookworm",
+	//"image": "ghcr.io/dbt-labs/dbt-snowflake:1.7.1",
 	//"customizations": {
 	//	"vscode": {
 	//		"extensions": [
