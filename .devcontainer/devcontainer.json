@@ -1,20 +1,20 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/alpine
 {
-	"name": "Alpine",
+	"name": "dbt",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//"image": "python:3.11-slim-bookworm",
 	"image": "ghcr.io/dbt-labs/dbt-snowflake:1.7.1",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"innoverio.vscode-dbt-power-user",
-				"dorzey.vscode-sqlfluff",
-				"redhat.vscode-yaml"
-			]
-		}
-	},
+	//"customizations": {
+	//	"vscode": {
+	//		"extensions": [
+	//			"ms-python.python",
+	//			"innoverio.vscode-dbt-power-user",
+	//			"dorzey.vscode-sqlfluff",
+	//			"redhat.vscode-yaml"
+	//		]
+	//	}
+	//},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -26,10 +26,10 @@
 	// "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	// "postStartCommand": "./.devcontainer/postCreateCommand.sh",
 	
-	"remoteEnv": {
-		"PATH": "${containerEnv:PATH}:/root/.local/bin"
+	//"remoteEnv": {
+	//	"PATH": "${containerEnv:PATH}:/root/.local/bin"
 
-	}
+	//}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
